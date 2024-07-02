@@ -1,0 +1,493 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Oxygen",sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    font-family: Rubik
+
+}
+.container{
+    max-width: 1370px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.logo{
+    font-size: 36px;
+    font-weight: 900;
+}
+.header{
+    padding: 44px 0;
+}
+
+
+
+
+
+
+.title{
+    font-size: 68px;
+    font-weight: 700;
+}
+.intro-head{
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+.intro-head div{
+    width: 500px;
+}
+.intro-head .title{
+    width: 504px;
+}
+.intro{
+    padding: 70px;
+}
+.intro-head p{
+    font-weight: 300;
+    font-size: 18px;
+    color:#333333;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.intro-head a{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Rubik;
+}
+.advetages{
+    display: flex;
+    gap: 57px;
+    margin-top: 112px;
+}
+.advetages-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.advetages-box h4{
+    font-size: 24px;
+    font-weight: 700;  
+}
+.advetages-box p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #444444;
+}
+
+
+
+
+
+
+
+.continue{
+    max-width: 100%;
+    background-color: #EBD7CC;
+}
+.continue-wrapper{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    padding: 148px 0;
+    
+}
+.container-wrap svg{
+    display: flex;
+    align-items: center;
+    margin-top: -600px;    
+} 
+.title-wrap h1{
+    text-align: center;
+    font-size: 64px;
+    font-weight:700 ;
+    line-height:64px ;
+    width: 891px;
+}
+.title-wrap p{
+    font-family: Rubik;
+    text-align: center;
+    width: 659px;
+    font-size: 18px;
+    font-weight:300 ;
+    line-height:30.6px ;
+    color: #333333;
+}
+.title-wrap button{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Roboto;
+    cursor: pointer;
+    color: white;
+    background-color: #3D67FF;
+    border-radius: 50px;
+    width: 166px;
+    height: 66px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.option{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    
+}
+.saly img{
+    width: 930px;
+    padding: 0 68px;
+    margin-top: -80px;
+}
+.option-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top:26px ;
+
+
+}
+.desc-tons{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+.desc-tons h1{
+    font-size:64px ;
+    font-weight:700 ;
+    line-height: 64px;
+    width: 479px;
+}
+.desc-tons p{
+    font-family: Inter;
+    font-size:18px ;
+    font-weight:400 ;
+    line-height: 32.4px;
+    width: 459px;
+    color: #666666;
+}
+.container-wrapper button{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    background-color: #3D67FF;
+    border-radius: 50px;
+    width: 166px;
+    height: 66px;
+    border: none;
+    
+}
+.button{
+    padding-top: 60px;
+}
+.container-wrapper{
+    padding-top:224px ;
+}
+.option-wrapper p{
+    font-family: Inter;
+    font-size:17px ;
+    font-weight: 400;
+    line-height: 47.6px;
+}
+.option svg{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.ton-section{
+    max-width: 100%;
+}
+.tons{
+    display: flex;
+    padding-top: 227px;
+    padding-bottom: 227px;
+}
+.tons-wrapper{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.traking-wrapper{
+    display: flex;
+    padding-bottom: 35px;
+
+}
+.traking-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-left: 28px;
+}
+.traking-desc h4{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 37.4px;
+}
+.traking-desc p{
+    width: 275px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: #666666;
+}
+.description{
+    padding-bottom: 87px;
+}
+.description h1{
+    width: 613px;
+    padding-bottom: 29px;
+    font-size: 64px;
+    font-weight: 700;
+}
+.description p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: #666666;
+}
+.path{
+    padding-top: 10px;
+    
+}
+.try{
+    display: flex;
+    gap: 47px;
+}
+
+
+
+
+
+
+.ton-section2{
+    background-color: #E6EAF2;
+}
+.ton-section2 h1{
+    font-size:64px ;
+    font-weight:700 ;
+    line-height: 64px;
+    width: 385px;
+}
+.saly2 img{
+    display: flex;
+    justify-content: flex-end;
+    width: 930px;
+    padding: 0 82px;
+}
+.show2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 -500px;
+    
+}
+.option{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    
+}
+.saly img{
+    width: 930px;
+    padding: 0 68px;
+    margin-top: -80px;
+}
+.option-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top:26px ;
+
+
+}
+.desc-tons2{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+.desc-tons2 h1{
+    font-size:64px ;
+    font-weight:700 ;
+    line-height: 64px;
+    width: 479px;
+}
+.desc-tons2 p{
+    font-size:18px ;
+    font-weight:400 ;
+    line-height: 32.4px;
+    width: 459px;
+    color: #666666;
+}
+.container-wrapper2 button{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    background-color: #3D67FF;
+    border-radius: 50px;
+    width: 166px;
+    height: 66px;
+    border: none;
+    
+}
+.button{
+    padding-top: 60px;
+}
+.container-wrapper2{
+    padding-top:-147px ;
+}
+.option-wrapper p{
+    font-size:17px ;
+    font-weight: 400;
+    line-height: 47.6px;
+}
+.option svg{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+
+.ton-section3{
+    background-color: #FFCB39;
+}
+.continue-wrapper3{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-wrap3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    padding: 148px 0;
+    
+}
+.container-wrap3 img{
+    display: flex;
+    align-items: center;
+    margin-top: -560px;    
+} 
+.title-wrap3 h1{
+    text-align: center;
+    font-size: 64px;
+    font-weight:700 ;
+    line-height:64px ;
+    width: 713px;
+}
+.title-wrap3 p{
+    text-align: center;
+    width: 659px;
+    font-size: 18px;
+    font-weight:300 ;
+    line-height:30.6px ;
+    color: #333333;
+}
+.title-wrap3 button{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    background-color: #3D67FF;
+    border-radius: 50px;
+    width: 166px;
+    height: 66px;
+    border: none;
+}
+
+
+
+.finish{
+    max-width: 100%;
+}
+.close-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 188px;
+}
+.frequently-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    padding-bottom: 33px;
+}
+.frequently-wrapper h1{
+    width: 521px;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+.fags-minus{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;   
+}
+.fags-minus h4{
+    font-size:19px ;
+    font-weight:700 ;
+    line-height: 34.2px;
+}
+.fags p{
+    width: 608px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: #666666;
+}
+.plus-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.plus{
+    padding-top: 51px;
+}
+.line{
+    padding-bottom:12px ;
+  
+}
+
+.saly12{
+    padding-top: 17px;
+}
